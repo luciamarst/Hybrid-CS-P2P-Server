@@ -6,20 +6,20 @@ The server handles coordination and authentication, while clients can communicat
 
 ## Main features
 
-1) **Hybrid Architecture (C/S + P2P)**
+1️⃣ **Hybrid Architecture (C/S + P2P)**
   - Centralized server control
   - Optional P2P connections between clients
 
-2) **Low Latency**
+2️⃣ **Low Latency**
   - Clients can open direct channels to exchange data.
 
-3) **Server as Mediator**
+3️⃣ **Server as Mediator**
   - Handling signaling, permissions, and authentication.
 
-4) **Support for Sporadic Connections**
+4️⃣ **Support for Sporadic Connections**
   - P2P is only established when needed.
 
-5) **Modular and Scalable**
+5️⃣ **Modular and Scalable**
   - Easily extendable for chat, gaming, IoT, file transfer, etc.
   
 ---
