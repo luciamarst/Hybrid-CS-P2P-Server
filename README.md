@@ -31,7 +31,7 @@ graph TD
     Manager --> ClientA
     Manager --> ClientB
     ClientA --- ClientB
-
+```
 
 1. Clients connect to the server.
 2. The server coordinates the communication.
