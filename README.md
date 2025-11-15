@@ -27,21 +27,20 @@ The server handles coordination and authentication, while clients can communicat
 ##  Arquitecture
 ```mermaid
 graph TD
-    Server
+    Server["Server"]:::server
 
-    subgraph Clients
+    subgraph Clients [Clientes]
         direction LR
-        ClientA
-        Spacer[" "]:::invisible
-        ClientB
+        ClientA["ClientA"]:::client
+        ClientB["ClientB"]:::client
     end
 
     Server --> ClientA
     Server --> ClientB
-
     ClientA ---|P2P| ClientB
 
-    classDef invisible fill-opacity:0,stroke-opacity:0;
+    classDef server fill:#333,stroke:#fff,stroke-width:1px,color:#fff;
+    classDef client fill:#ff9aff,stroke:#ccc,stroke-width:1px,color:#eee;
 
 ```
 
