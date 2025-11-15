@@ -27,10 +27,9 @@ The server handles coordination and authentication, while clients can communicat
 ##  Arquitecture
 ```mermaid
 graph TD
-    Server --> Manager
-    Manager --> ClientA
-    Manager --> ClientB
-    ClientA --- ClientB
+    Server --> ClientA
+    Server --> ClientB
+    ClientA ---|P2P| ClientB
 ```
 
 1. Clients connect to the server.
