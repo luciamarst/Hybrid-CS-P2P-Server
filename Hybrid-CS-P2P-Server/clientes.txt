@@ -1,0 +1,16 @@
+cliente1:
+foto_perfil.png
+vacaciones_1.png
+vacaciones_2.png
+
+cliente2:
+foto_perfil_cliente2.png
+paisaje.png
+
+cliente3:
+familia_1.png
+vacaciones_familia.png
+
+cliente4:
+tema1_locks.pdf
+tema7_DP.pdf
