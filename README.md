@@ -27,19 +27,20 @@ The server handles coordination and authentication, while clients can communicat
 ##  Arquitecture
 ```mermaid
 graph TD
+    Server["Server"]:::server
+
+    subgraph Clients [Clientes]
+        direction LR
+        ClientA["ClientA"]:::client
+        ClientB["ClientB"]:::client
+    end
+
     Server --> ClientA
     Server --> ClientB
     ClientA ---|P2P| ClientB
 
-  %% Forzar que ClientA y ClientB estén en el mismo nivel
-    classDef sameLevel fill:#f9f,stroke:#333,stroke-width:1px;
-    class ClientA,ClientB sameLevel;
-
-subgraph Clients[ ]
-        direction LR
-        ClientA
-        ClientB
-    end
+    classDef server fill:#333,stroke:#fff,stroke-width:1px,color:#fff;
+    classDef client fill:#ff9aff,stroke:#ccc,stroke-width:1px,color:#eee;
 ```
 
 1. Clients connect to the server.
