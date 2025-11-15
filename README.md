@@ -4,8 +4,6 @@ Hybrid Client-Server + P2P Server
 This project implements a server with hybrid communications that combine the traditional model **Client-Server** with a system of **sporadic P2P connections** between clients.
 The server handles coordination and authentication, while clients can communicate directly with each other when the application requires it, reducing latency and server load.
 
----
-
 ## Main features
 
 - **Hybrid Architecture (C/S + P2P)**
