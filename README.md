@@ -10,14 +10,18 @@ The server handles coordination and authentication, while clients can communicat
   - Centralized server control
   - Optional P2P connections between clients
 
+
 2️⃣ **Low Latency**
   - Clients can open direct channels to exchange data.
+
 
 3️⃣ **Server as Mediator**
   - Handling signaling, permissions, and authentication.
 
+
 4️⃣ **Support for Sporadic Connections**
   - P2P is only established when needed.
+
 
 5️⃣ **Modular and Scalable**
   - Easily extendable for chat, gaming, IoT, file transfer, etc.
