@@ -25,15 +25,12 @@ The server handles coordination and authentication, while clients can communicat
 ---
 
 ##  Arquitectura
-          ┌───────────┐
-          │  Server   │  ← Manager
-          └─────┬─────┘
-                │
-      ┌─────────┴─────────┐
-      │                   │
- ┌────▼─────┐       ┌────▼─────┐
- │ Client A │ ←---→ │ Client B │
- └──────────┘ P2P   └──────────┘
+graph TD
+    Server --> Manager
+    Manager --> ClientA
+    Manager --> ClientB
+    ClientA --- ClientB
+
 
 
 1. Clients connect to the server.
