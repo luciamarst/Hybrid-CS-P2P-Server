@@ -33,7 +33,7 @@ The server handles coordination and authentication, while clients can communicat
 graph TD
     Server["Server"]:::server
 
-    subgraph Clients [Clientes]
+    subgraph Clients [Clients]
         direction LR
         ClientA["ClientA"]:::client
         ClientB["ClientB"]:::client
