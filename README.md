@@ -30,6 +30,10 @@ graph TD
     Server --> ClientA
     Server --> ClientB
     ClientA ---|P2P| ClientB
+
+  %% Forzar que ClientA y ClientB estén en el mismo nivel
+    classDef sameLevel fill:#f9f,stroke:#333,stroke-width:1px;
+    class ClientA,ClientB sameLevel;
 ```
 
 1. Clients connect to the server.
